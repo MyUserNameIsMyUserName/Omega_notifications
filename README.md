@@ -1,5 +1,8 @@
 # Omega_notifications
 
+# Install npm SASS
+npm install -g sass
+
 # Run command to update CSS by editing SCSS
 sass --watch src/scss:src/css
 
