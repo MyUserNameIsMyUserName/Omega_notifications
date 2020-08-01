@@ -1,4 +1,5 @@
-$mainColor : red;
+$mainColor:#f9f9f9;
+$manBackground:#444444;
 
 html, body {
     margin: 0;
@@ -7,7 +8,7 @@ html, body {
         color: $mainColor;
     }
     .demo {
-        color       :   green;
-        background  :   blue;
+        color: green;
+        background: blue;
     }
 }
