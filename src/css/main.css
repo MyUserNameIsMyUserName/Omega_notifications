@@ -1,11 +1,11 @@
-html, body {
+body {
   margin: 0;
   padding: 0;
 }
-html a, body a {
+body a {
   color: #f9f9f9;
 }
-html .demo, body .demo {
+body .demo {
   color: green;
   background: blue;
 }

@@ -1,6 +1,7 @@
-function defaultTask(cb) {
+var gulp = require('gulp');
+
+gulp.task('min-css-export', function(cb){
     // loads various gulp modules
-    var gulp = require('gulp');
     var concat = require('gulp-concat');
     var minifyCSS = require('gulp-minify-css');
     var autoprefixer = require('gulp-autoprefixer');
@@ -14,6 +15,4 @@ function defaultTask(cb) {
     .pipe(gulp.dest('dist/css'))
     // place code for your default task here
     cb();
-  }
-  
-  exports.default = defaultTask
+});
