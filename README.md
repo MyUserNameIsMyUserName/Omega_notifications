@@ -22,6 +22,6 @@ npm install gulp-minify-css
 npm install gulp-autoprefixer
 npm install gulp-rename
 
-# So you can run "gulp" command in root and have .min.css file exported
-# will export all css into min file inside dist/css
-gulp min-css-export
+# So you can run "gulp" command in root and have .min.css file(s) exported
+gulp min-css-export-single-file
+gulp min-css-export-all

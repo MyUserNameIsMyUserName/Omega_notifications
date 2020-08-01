@@ -1,11 +1,12 @@
-$mainColor:#f9f9f9;
-$manBackground:#444444;
+// Utilities
+@import "utilities/variables";
 
 body {
     margin: 0;
     padding: 0;
     a {
         color: $mainColor;
+        background: $mainBackground;
     }
     .demo {
         color: green;
