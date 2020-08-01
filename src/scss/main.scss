@@ -1,0 +1,13 @@
+$mainColor : red;
+
+html, body {
+    margin: 0;
+    padding: 0;
+    a {
+        color: $mainColor;
+    }
+    .demo {
+        color       :   green;
+        background  :   blue;
+    }
+}

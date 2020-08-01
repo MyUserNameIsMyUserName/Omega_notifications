@@ -1,0 +1,13 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+html a, body a {
+  color: red;
+}
+html .demo, body .demo {
+  color: green;
+  background: blue;
+}
+
+/*# sourceMappingURL=main.css.map */
