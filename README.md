@@ -1,5 +1,14 @@
 # Omega_notifications
 
+## Notifications usage
+
+
+
+
+
+
+## *INSTALLING FOR DEVELOPMET*
+
 # Install npm SASS
 npm install -g sass
 
