@@ -32,3 +32,8 @@ gulp.task('min-css-export-all', function(cb){
 
     cb();
 });
+
+gulp.task('watch', function(){
+    gulp.watch('src/css/*.css', gulp.series(['min-css-export-all','min-css-export-single-file'])); 
+    // Other watchers
+  })
